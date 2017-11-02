@@ -7,7 +7,7 @@ var methodOverride  =   require("method-override");
 
 //app config
 
-mongoose.connect("mongodb://shreyasmurali:shreyas123@ds245615.mlab.com:45615/redditstyleblog");
+mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds245615.mlab.com:45615/redditstyleblog");
 
 app.set("view engine","ejs");
 app.use(express.static("public"));
